@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAa;EACT,gBAAgB,EAAE,OAAO;;ACD7B,cAAc;EACV,gBAAgB,EAAE,OAAO;EACzB,uBAAQ;IACJ,MAAM,EAAE,MAAM;IACd,UAAU,EAAE,MAAM;IAClB,0CAAoB;MAChB,OAAO,EAAE,IAAI;IACjB,4BAAI;MACA,eAAe,EAAE,IAAI;MACrB,KAAK,EAAE,KAAK;MACZ,SAAS,EAAE,MAAM;MACjB,kCAAO;QACH,WAAW,EAAE,IAAI;;ACZjC,cAAc;EACV,gBAAgB,EAAE,OAAO",
+"sources": ["../sass/layout/_inputSection.sass","../sass/layout/_methodSection.sass","../sass/layout/_outputSection.sass"],
+"names": [],
+"file": "styles.css"
+}
