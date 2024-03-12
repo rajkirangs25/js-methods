@@ -1,19 +1,26 @@
 .inputSection {
   background-color: #FFD493; }
+  .inputSection .input-elements {
+    background-color: beige; }
 
 .methodSection {
   background-color: #daf7a6; }
   .methodSection .methods {
-    height: 93.9vh;
+    height: 100vh;
     overflow-y: scroll; }
     .methodSection .methods::-webkit-scrollbar {
       display: none; }
-    .methodSection .methods .met {
-      text-decoration: none;
-      color: black;
-      font-size: 1.5rem; }
-      .methodSection .methods .met:hover {
-        font-weight: bold; }
+    .methodSection .methods .met-btn {
+      display: flex;
+      justify-content: center; }
+      .methodSection .methods .met-btn button[class^="btn-"] {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+        border-style: none;
+        background-color: transparent; }
+        .methodSection .methods .met-btn button[class^="btn-"]:hover {
+          font-weight: bold; }
 
 .outputSection {
   background-color: #ffd1d1; }

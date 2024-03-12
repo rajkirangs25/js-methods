@@ -45,12 +45,15 @@ const methodsList = [
   '.with()',
 ];
 
-const generateListItems = () => {
+const generateListItems = arr => {
   let ele = '';
-  for (let i = 0; i < methodsList.length; i++) {
-    ele += `<div><a href="#" class = "met">${methodsList[i]}</a></div>`;
+  for (let i = 0; i < arr.length; i++) {
+    ele += `<div class = "met-btn"><button class = "btn-${arr[i].slice(
+      1,
+      -2
+    )}">${arr[i]}</button></div>`;
   }
   return ele;
 };
 
-export default generateListItems(methodsList);
+export { methodsList, generateListItems };

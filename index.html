@@ -18,19 +18,57 @@
   <body>
     <div class="container-fluid">
       <div class="row mainRow">
-        <div class="col-4 inputSection">
-          <h1>Input Section</h1>
+        <div class="col-5 inputSection">
+          <p>Input Section</p>
+          <div class="row input-elements">
+            <div class="row">
+              <div class="col-4">
+                <label for="arrayInput">Enter Array Elements</label>
+              </div>
+              <div class="col-8">
+                <input
+                  type="text"
+                  name="arrayInput"
+                  id="arrayInput"
+                  autocomplete="off"
+                  placeholder="Format: Element1, Element2, Element3,..."
+                />
+              </div>
+              <div class="col-12">
+                <button class="confirmArray">This is my Array!</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input
+                  type="text"
+                  name="selectedArray"
+                  id="selectedArray"
+                  autocomplete="off"
+                />
+                <button class="revertBack">I want to change this Array!</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-4 methodSection">
-          <h1>Methods Section</h1>
+        <div class="col-2 methodSection">
+          <p>Methods Section</p>
           <div class="row">
             <div class="col-3"></div>
             <div class="col-6 methods"></div>
             <div class="col-3"></div>
           </div>
         </div>
-        <div class="col-4 outputSection">
-          <h1>Output Section</h1>
+        <div class="col-5 outputSection">
+          <p>Output Section</p>
+          <div class="outputArray">
+            <input
+              type="text"
+              name="outputArray"
+              id="outputArray"
+              autocomplete="off"
+            />
+          </div>
         </div>
       </div>
     </div>
